@@ -6,6 +6,10 @@ import Tarea from "./Tarea";
 function ListaDeTareas() {
   const [tareas, setTareas] = useState([]);
 
+  const agregarTarea = tarea => {
+    
+  }
+
   return (
     <>
       <TareaFormulario />
